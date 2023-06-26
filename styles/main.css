@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Roboto:wght@400;700;900&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+body {
+  background-color: rgb(255, 226, 226);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(40, 40, 40);
+}
+
+h1 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  color: rgb(40, 40, 40);
+}
+
+h2 {
+  color: #dc3ebf;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dc3ebf;
+}
+
+.CenteredBox {
+  width: 900px;
+  margin: 20px auto;
+  padding: 32px;
+  border-radius: 5px;
+  background: #dcbcbc;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-pink {
+  background: pink;
+  color: white;
+  border-radius: 5px;
+  padding: 16px 25px;
+  border: 1px solid transparent;
+}
+
+.btn-pink:hover {
+  color: #dc3ebf;
+  background-color: #dcbcbc;
+  border: 1px solid #dc3ebf;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 5px rgba(0, 10, 20, 0.2);
+}
+
+#bio p {
+  margin-bottom: 30px;
+}
+
+#footer a {
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  .CenteredBox {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .CenteredBox {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .CenteredBox {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
